@@ -1,0 +1,9 @@
+﻿
+.col-sm-4 {
+    margin: 20px;
+}
+
+.col-sm-8 {
+    margin: 50px;
+    max-width: 100%;
+}

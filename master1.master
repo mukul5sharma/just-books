@@ -1,0 +1,80 @@
+﻿<%@ Master %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title> 
+
+    <style>
+        .container-fluid {
+            width: auto;
+            margin: auto;
+        }
+
+        .image {
+            align-items: initial;
+            width: 300px;
+            text-align: center;
+        }
+
+        .sidebar {
+            text-align: center;
+            width: auto;
+            margin-top: auto;
+        }
+
+        .intro {
+            text-align: left;
+            margin-left: 15px;
+        }
+
+        .content {
+            margin-top: 60px;
+        }
+
+        .contact {
+            margin-left: 20px;
+        }
+    </style>
+    <meta charset='utf-8' />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-inner">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="http://net4.ccs.neu.edu/home/mukul/">HOME</a>
+                        <ul class="nav navbar-nav">
+                            <li><a href="story/index.htm" target="_blank">Story Utility</a></li>
+                            <li><a href="http://www.northeastern.edu/rasala/webstories.htm"
+                                target="_blank">Web Development Stories</a></li>
+
+
+                            <li class="dropdown">
+                                <a href="Experiments.aspx" target="_blank" class="dropdown-toggle" data-toggle="dropdown">Experiments <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="story/index.htm?../experiments/BootstrapExperiments/" target="_blank">Bootstrap</a></li>
+                                    <li><a href="story/index.htm?../experiments/JqueryExperiments/" target="_blank">Jquery</a></li>
+                                    <li><a href="story/index.htm?../experiments/Webservices/" target="_blank">Web services</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="project/index.htm" target="_blank">Project</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="CPH1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

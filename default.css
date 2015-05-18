@@ -1,0 +1,29 @@
+﻿.container-fluid {
+            width: auto;
+            margin: auto;
+        }
+
+        .image {
+            align-items: initial;
+            width: 300px;
+            text-align: center;
+        }
+
+        .sidebar {
+            text-align: center;
+            width: auto;
+            margin-top: auto;
+        }
+
+        .intro {
+            text-align: left;
+            margin-left: 15px;
+        }
+
+        .content {
+            margin-top: 60px;
+        }
+
+        .contact {
+            margin-left: 20px;
+        }

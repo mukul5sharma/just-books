@@ -1,0 +1,23 @@
+﻿.bluediv {
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .reddiv {
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .content {
+            background-color: blanchedalmond;
+        }
